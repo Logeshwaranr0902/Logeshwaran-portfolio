@@ -54,7 +54,7 @@ const Contact = () => {
       <div className="font-black mt-5 text-4xl">Let's Connect !</div>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col items-center mt-5 w-full max-w-md"
+        className="flex flex-col items-center mt-5 w-full max-w-md px-4"
       >
         <div className="mb-4 w-full">
           <label htmlFor="name" className="block mb-2 text-lg">
