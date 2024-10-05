@@ -10,9 +10,9 @@ const About = () => {
   const { isDarkMode } = useTheme();
   return (
     <section
-      className={`min-h-screen flex flex-col items-center   ${
+      className={`min-h-fit flex flex-col items-center   ${
         isDarkMode ? "bg-gray-900 text-white" : "bg-white text-black"
-      } `}
+      } pb-8 `}
     >
       <div className="text-center mt-[100px] px-4">
         <p className="text-2xl font-quicksand">

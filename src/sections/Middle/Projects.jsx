@@ -58,7 +58,7 @@ const Projects = () => {
   return (
     <section
       ref={sectionRef}
-      className={`min-h-screen flex flex-col items-center text-yellow-300 bg-black`}
+      className={`min-h-fit pb-5 flex flex-col items-center text-yellow-300 bg-black`}
     >
       <p className="text-[50px] mt-[18px] font-bold mb-10">PROJECTS</p>
       <div className="space-y-8 w-full max-w-4xl mb-6">
