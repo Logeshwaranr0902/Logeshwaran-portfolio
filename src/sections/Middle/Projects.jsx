@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import emotionAnalyzer from "../../assets/EmotionAalyzer.png";
 import amazonClone from "../../assets/amazonClone.png";
 import toDoList from "../../assets/toDoList.png";
+import contactmanager from "../../assets/contactmanager.png";
 
 const projects = [
   {
@@ -11,14 +12,25 @@ const projects = [
     description:
       "This full-stack emotion analysis web app, built with React and Flask, allows users to upload CSV files for text analysis. The Flask backend processes the data using a pre-trained RandomForest model, with predictions visualized as bar charts in React using Recharts. The app supports light and dark modes for improved UX.",
     link: "https://github.com/Logeshwaranr0902/Emotion_analyzer",
+    link2: "https://github.com/Logeshwaranr0902/Emotion_analyzer",
   },
   {
     id: 2,
-    title: "Amazon Clone ",
+    title: "Contact Manager",
+    image: contactmanager,
+    description:
+      "Contact Manager is a full-stack web application built with React and Flask, designed for efficient contact management. It features an intuitive interface for seamless CRUD operations, real-time updates, and persistent data storage. The application is responsive and utilizes Axios for API interactions, with Flask and SQLAlchemy on the backend and SQLite for the database. It is deployed on Render for the backend and Netlify for the frontend.",
+    link: "https://github.com/Logeshwaranr0902/contact-storage-app",
+    link2: "https://contact-storage-app.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Amazon Clone",
     image: amazonClone,
     description:
       "I created an Amazon web application featuring cart functionality, utilizing React for the user interface and Tailwind CSS for responsive design. This project provided me with practical experience in managing component state using React hooks, dynamically updating cart data, and applying Tailwind CSS for efficient, responsive styling. It also enhanced my knowledge of component-based architecture and interactive UI development.",
     link: "https://github.com/Logeshwaranr0902/Amazonclone",
+    link2: "https://github.com/Logeshwaranr0902/Amazonclone",
   },
   {
     id: 3,
@@ -27,6 +39,7 @@ const projects = [
     description:
       "I built a simple to-do list application using React. The application allows users to add, remove, and mark tasks as completed. I focused on understanding the basics of React, such as component structure, state management using hooks like useState, and handling user interactions through forms and buttons.",
     link: "https://github.com/Logeshwaranr0902/Todolist",
+    link2: "https://github.com/Logeshwaranr0902/Todolist",
   },
 ];
 
@@ -87,7 +100,7 @@ const Projects = () => {
                 <h3>
                   <span className="text-xl inline-block font-semibold mb-2 text-yellow-300 hover:text-white">
                     <a
-                      href={project.link}
+                      href={project.link2}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
