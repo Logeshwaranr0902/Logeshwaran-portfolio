@@ -11,8 +11,8 @@ const projects = [
     image: emotionAnalyzer,
     description:
       "This full-stack emotion analysis web app, built with React and Flask, allows users to upload CSV files for text analysis. The Flask backend processes the data using a pre-trained RandomForest model, with predictions visualized as bar charts in React using Recharts. The app supports light and dark modes for improved UX.",
-    link: "https://github.com/Logeshwaranr0902/Emotion_analyzer",
-    link2: "https://github.com/Logeshwaranr0902/Emotion_analyzer",
+    link: "https://emotionanalyser.netlify.app/", //weblink
+    link2: "https://github.com/Logeshwaranr0902/Emotion_analyzer", //gitlink
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projects = [
     image: contactmanager,
     description:
       "Contact Manager is a full-stack web application built with React and Flask, designed for efficient contact management. It features an intuitive interface for seamless CRUD operations, real-time updates, and persistent data storage. The application is responsive and utilizes Axios for API interactions, with Flask and SQLAlchemy on the backend and SQLite for the database. It is deployed on Render for the backend and Netlify for the frontend.",
-    link: "https://github.com/Logeshwaranr0902/contact-storage-app",
-    link2: "https://contact-storage-app.netlify.app/",
+    link: "https://contact-storage-app.netlify.app/",
+    link2: "https://github.com/Logeshwaranr0902/contact-storage-app",
   },
   {
     id: 3,
