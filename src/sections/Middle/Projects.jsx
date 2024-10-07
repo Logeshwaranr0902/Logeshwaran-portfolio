@@ -29,7 +29,7 @@ const projects = [
     image: amazonClone,
     description:
       "I created an Amazon web application featuring cart functionality, utilizing React for the user interface and Tailwind CSS for responsive design. This project provided me with practical experience in managing component state using React hooks, dynamically updating cart data, and applying Tailwind CSS for efficient, responsive styling. It also enhanced my knowledge of component-based architecture and interactive UI development.",
-    link: "https://github.com/Logeshwaranr0902/Amazonclone",
+    link: "https://amazonclone0902.netlify.app/",
     link2: "https://github.com/Logeshwaranr0902/Amazonclone",
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     image: toDoList,
     description:
       "I built a simple to-do list application using React. The application allows users to add, remove, and mark tasks as completed. I focused on understanding the basics of React, such as component structure, state management using hooks like useState, and handling user interactions through forms and buttons.",
-    link: "https://github.com/Logeshwaranr0902/Todolist",
+    link: "https://todolist0902.netlify.app/",
     link2: "https://github.com/Logeshwaranr0902/Todolist",
   },
 ];
