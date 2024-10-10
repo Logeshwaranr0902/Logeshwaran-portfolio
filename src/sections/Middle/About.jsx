@@ -83,7 +83,7 @@ const About = () => {
             </div>
             <div className="mt-5 ml-2">
               <a
-                href="https://drive.google.com/uc?export=download&id=1JPhtfcfgIuO45u6ROk11NoM5yR4cqQQy"
+                href="https://drive.google.com/uc?export=download&id=1XoQwqX3Wzk8Sil6V4hsNZqVyzHdM8Wwl"
                 download="Logeshwaran Resume.pdf"
                 className={`  ${
                   isDarkMode
