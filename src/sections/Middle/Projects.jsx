@@ -3,6 +3,7 @@ import emotionAnalyzer from "../../assets/EmotionAalyzer.png";
 import amazonClone from "../../assets/amazonClone.png";
 import toDoList from "../../assets/toDoList.png";
 import contactmanager from "../../assets/contactmanager.png";
+import currencyConverter from "../../assets/currencyConverter.png";
 
 const projects = [
   {
@@ -25,6 +26,15 @@ const projects = [
   },
   {
     id: 3,
+    title: "Currency Converter",
+    image: currencyConverter,
+    description:
+      "Developed a responsive web application using React and Tailwind CSS that enables users to convert currencies between various global currencies. Implemented real-time exchange rate updates through an external API, enhancing user experience with features like currency interchange and intuitive UI design. The application showcases proficiency in integrating APIs and building interactive frontend components.",
+    link: "https://currencyconverter0902.netlify.app/",
+    link2: "https://github.com/Logeshwaranr0902/Currency_converter",
+  },
+  {
+    id: 4,
     title: "Amazon Clone",
     image: amazonClone,
     description:
@@ -33,7 +43,7 @@ const projects = [
     link2: "https://github.com/Logeshwaranr0902/Amazonclone",
   },
   {
-    id: 3,
+    id: 5,
     title: "Todolist",
     image: toDoList,
     description:
