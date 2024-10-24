@@ -4,19 +4,29 @@ import amazonClone from "../../assets/amazonClone.png";
 import toDoList from "../../assets/toDoList.png";
 import contactmanager from "../../assets/contactmanager.png";
 import currencyConverter from "../../assets/currencyConverter.png";
+import ecommerceimage from "../../assets/ecommerceimage.png";
 
 const projects = [
   {
     id: 1,
+    title: "E- Commerce Website - Fullstack",
+    image: ecommerceimage,
+    description:
+      "This project is an e-commerce website where users can browse, add products to the cart, and complete purchases. It involves a frontend for customers to interact with, along with backend services to handle user authentication, product management, and checkout functionality. The backend also manages a database that stores user data, order history, and cart details. The platform supports dynamic user interactions such as signup, login, and cart management, integrated with a relational database for efficient data storage.",
+    link: "https://247marte-commerce.netlify.app/",
+    link2: "https://github.com/Logeshwaranr0902/onlineshopping",
+  },
+  {
+    id: 2,
     title: "Emotion Analyzer",
     image: emotionAnalyzer,
     description:
       "This full-stack emotion analysis web app, built with React and Flask, allows users to upload CSV files for text analysis. The Flask backend processes the data using a pre-trained RandomForest model, with predictions visualized as bar charts in React using Recharts. The app supports light and dark modes for improved UX.",
-    link: "https://emotionanalyser.netlify.app/", //weblink
-    link2: "https://github.com/Logeshwaranr0902/Emotion_analyzer", //gitlink
+    link: "https://emotionanalyser.netlify.app/",
+    link2: "https://github.com/Logeshwaranr0902/Emotion_analyzer",
   },
   {
-    id: 2,
+    id: 3,
     title: "Contact Manager",
     image: contactmanager,
     description:
@@ -25,7 +35,7 @@ const projects = [
     link2: "https://github.com/Logeshwaranr0902/contact-storage-app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Currency Converter",
     image: currencyConverter,
     description:
@@ -34,7 +44,7 @@ const projects = [
     link2: "https://github.com/Logeshwaranr0902/Currency_converter",
   },
   {
-    id: 4,
+    id: 5,
     title: "Amazon Clone",
     image: amazonClone,
     description:
@@ -43,7 +53,7 @@ const projects = [
     link2: "https://github.com/Logeshwaranr0902/Amazonclone",
   },
   {
-    id: 5,
+    id: 6,
     title: "Todolist",
     image: toDoList,
     description:
@@ -93,6 +103,10 @@ const Projects = () => {
                 isVisible
                   ? "transform translate-x-0 opacity-100"
                   : "transform -translate-x-full opacity-0"
+              } ${
+                project.id === 1
+                  ? "bg-gradient-to-r from-blue-300 via-gray-900 to-black"
+                  : ""
               }`}
               style={{ transitionDelay: `${index * 200}ms` }}
             >
@@ -101,7 +115,11 @@ const Projects = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-auto border border-white hover:border-blue-400 sm:w-64 sm:h-36 object-contain rounded-md mr-8 transition-transform duration-300 ease-in-out transform hover:scale-110"
+                    className={`w-full h-auto border ${
+                      project.id === 1
+                        ? "border-black hover:border-white "
+                        : " border-white "
+                    } hover:border-blue-400 sm:w-64 sm:h-36 object-contain  rounded-md mr-8 transition-transform duration-300 ease-in-out transform hover:scale-110`}
                   />
                 </a>
               </div>
