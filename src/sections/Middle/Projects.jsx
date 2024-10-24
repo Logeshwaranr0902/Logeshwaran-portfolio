@@ -105,7 +105,7 @@ const Projects = () => {
                   : "transform -translate-x-full opacity-0"
               } ${
                 project.id === 1
-                  ? "bg-gradient-to-r from-blue-300 via-gray-900 to-black"
+                  ? "bg-gradient-to-b md:bg-gradient-to-r from-blue-300 via-gray-900 to-black"
                   : ""
               }`}
               style={{ transitionDelay: `${index * 200}ms` }}
